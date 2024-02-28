@@ -40,38 +40,49 @@ const newsSources = [
     {
         category: "Cyber",
         sources: [
-            { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" }
-        ]
-    },
-    {
-        category: "Healthcare",
-        sources: [
-            { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" }
+            { name: "Dark Reading", url: "https://www.darkreading.com/" },
+            { name: "The Hacker News", url: "https://thehackernews.com/" },
+            { name: "Threatpost", url: "https://threatpost.com/" },
+            { name: "Cyber Scoop", url: "https://www.cyberscoop.com/" },
+            { name: "Security Boulevard", url: "https://securityboulevard.com/" },
+            { name: "Security Week", url: "https://www.securityweek.com" },
+            { name: "Krebs on Security", url: "https://krebsonsecurity.com/" },
+
+
         ]
     },
     {
         category: "Global Conflicts",
         sources: [
-            { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" }
+            { name: "DOD News", url: "https://www.defense.gov/News/News-Stories/" },
+            { name: "DOD Releases", url: "https://www.defense.gov/News/releases/" }
         ]
     },
     {
         category: "US Government",
         sources: [
-            { name: "Whitehouse Statements", url: "https://www.whitehouse.gov/briefing-room/statements-releases/" },
-            { name: "Congress Activity", url: "https://www.govtrack.us/congress/bills/" },
-            { name: "Senate Activity", url: "https://www.senate.gov/legislative/bills_acts_laws.htm" },
-            { name: "Court Activity", url: "https://www.justice.gov/blogs" },
+            { name: "Whitehouse", url: "https://www.whitehouse.gov/briefing-room/statements-releases/" },
+            { name: "Congress", url: "https://www.govtrack.us/congress/bills/" },
+            { name: "Senate", url: "https://www.senate.gov/legislative/bills_acts_laws.htm" },
+            { name: "Suporeme Court", url: "https://www.justice.gov/blogs" },
+            { name: "Commerce", url: "https://www.commerce.gov/news/press-releases" },
         ]
     },
     {
         category: "Foreign Press",
         sources: [
-            { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" }
+            { name: "EPOCH Canada", url: "https://www.theepochtimes.com/canada" },
+            { name: "EPOCH UK", url: "https://www.theepochtimes.com/uk-europe" },
+            { name: "EPOCH China", url: "https://www.epochtimes.com" },
+            { name: "EPOCH Russia", url: "https://www.epochtimes.ru" },
+
+        ]
+    },
+    {
+        category: "Healthcare",
+        sources: [
+            { name: "Modern Healthcare", url: "https://www.modernhealthcare.com/" },
+            { name: "Healthcare Dive", url: "https://www.healthcaredive.com/" }
         ]
     },
 ];
